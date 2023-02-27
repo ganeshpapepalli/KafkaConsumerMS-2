@@ -1,0 +1,12 @@
+spring:
+  kafka:    
+    consumer:
+      group-id: lulugroup
+      usertopic: usertopic
+      stringtopic: stringtopic
+      bootstrap-servers: localhost:9092
+  baseurl: http://localhost:8002/
+
+server:
+  port: 8003
+
